@@ -1,20 +1,20 @@
-// Form Submission (Simulating)
-const form = document.querySelector('form');
+// // Form Submission (Simulating)
+// const form = document.querySelector('form');
 
-form.addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevents page reload
+// form.addEventListener('submit', function(event) {
+//     event.preventDefault(); // Prevents page reload
 
-    const name = form.querySelector('input[type="text"]').value;
-    const email = form.querySelector('input[type="email"]').value;
-    const message = form.querySelector('textarea').value;
+//     const name = form.querySelector('input[type="text"]').value;
+//     const email = form.querySelector('input[type="email"]').value;
+//     const message = form.querySelector('textarea').value;
 
-    if (name && email && message) {
-        alert(`Thank you, ${name}! Your message has been sent.`);
-        form.reset(); // Clears form fields
-    } else {
-        alert('Please fill out all fields before submitting.');
-    }
-});
+//     if (name && email && message) {
+//         alert(`Thank you, ${name}! Your message has been sent.`);
+//         form.reset(); // Clears form fields
+//     } else {
+//         alert('Please fill out all fields before submitting.');
+//     }
+// });
 
 // Smooth Scrolling for Navbar Links
 const navLinks = document.querySelectorAll('.nav-links a');
